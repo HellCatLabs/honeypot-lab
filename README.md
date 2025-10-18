@@ -32,7 +32,11 @@ Each folder contains:
 ## Bonus (optional)
 
 A `Dockerfile` is included to run the honeypot safely inside a container.
-
+To build and run the honeypot using Docker, use the following commands:
+```
+docker build -t honeypot-lab .
+docker run -p 8080:8080 -p 2222:2222 honeypot-lab
+```
 
 ## Feedback & Contributions
 
